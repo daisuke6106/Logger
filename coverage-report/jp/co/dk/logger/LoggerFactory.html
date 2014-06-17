@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JMockit Coverage Report - LoggerFactory.java</title>
+  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/>
+  <link rel='stylesheet' type='text/css' href='../../../../coverage.css'/>
+  <script type='text/javascript' src='../../../../coverage.js'></script>
+  <script type='text/javascript' src='../../../../prettify.js'></script>
+</head>
+<body onload='prettyPrint()'>
+  <table cellpadding='0' cellspacing='1'>
+    <caption>Logger/src/jp/co/dk/logger/LoggerFactory.java</caption>
+    <tr>
+      <td class='line'>1</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>package jp.co.dk.logger;</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td><pre class='imports prettyprint' onclick='showHideLines(this)'><div>import static jp.co.dk.logger.messege.LoggerMessege.*;
+
+import java.io.File;
+
+import jp.co.dk.logger.exception.LoggerInitException;
+
+import org.apache.log4j.PropertyConfigurator;
+</div><span>import ...</span></pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>/**
+ * LoggerFactoryは、指定のクラス名称、もしくは別名称を元にその名称に紐づくロギング設定でログインスタンスを生成するファクトリクラスです。&lt;p/>
+ * &lt;br/>
+ * このクラスに対して"getLogger"クラスを実行することで引数に指定されたクラス名称、もしくは別名称に紐づくロギング設定でログインスタンスを返却します。&lt;br/>
+ * 各種ログの設定はクラスパス上に存在する"properties/Logger.properties"から読み込みます。&lt;br/>
+ * &lt;br/>
+ * このファイルが存在しない場合、LoggerInitExceptionが発生します。
+ * 
+ * @version 1.0
+ * @author D.Kanno
+ */</div><span>/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>22</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l22s0'>public class LoggerFactory {</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>24</td><td>&nbsp;</td>
+      <td><pre class='comment'>	/** プロパティファイル */</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>25</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	protected static final String propertiesFile = "properties/Logger.properties";</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * スタティックイニシャライザ&lt;p/>
+	 * クラスパスに存在するプロパティファイルを読み込みます。
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>31</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	static {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>32</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l32s0'>		readPropertyFile(LoggerFactory.propertiesFile);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>33</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l33s0'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティファイルを読み込みます。&lt;p/>
+	 * 指定のプロパティファイルが存在しない場合、例外が発生します。
+	 * @param fileName プロパティファイル
+	 * @throws LoggerInitException 指定のプロパティファイルが存在しない場合
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>41</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	protected static void readPropertyFile(String fileName) throws LoggerInitException {</pre></td>
+    </tr>
+    <tr>
+      <td></td><td class='count'>5</td>
+      <td class='paths'>
+        <span style='cursor:default; background-color:#00ff00' onclick='hidePath()'>Path coverage: 3/3</span>
+        <span class='covered' onclick="showPath(this,'l42s0 l42s1')">A: 1</span>
+        <span class='covered' onclick="showPath(this,'l42s0 l43s0 l44s0 l44s1')">B: 2</span>
+        <span class='covered' onclick="showPath(this,'l42s0 l43s0 l44s0 l45s0 l46s0')">C: 2</span>
+      </td>
+    </tr>
+    <tr>
+      <td class='line'>42</td><td class='count'>5</td>
+      <td><pre class='prettyprint jmp'>		<span id='l42s0' title='Executions: 5' class='covered'>if (fileName == null)</span> <span id='l42s1' title='Executions: 1' class='covered'>throw new LoggerInitException(PROPERTIES_FILE_CAN_NOT_BE_FOUND, "null");</span></pre></td>
+    </tr>
+    <tr>
+      <td class='line'>43</td><td class='count'>4</td>
+      <td><pre class='prettyprint covered' id='l43s0'>		File propertiesFileObj = new File(fileName); </pre></td>
+    </tr>
+    <tr>
+      <td class='line'>44</td><td class='count'>4</td>
+      <td><pre class='prettyprint jmp'>		<span id='l44s0' title='Executions: 4' class='covered'>if (!propertiesFileObj.exists()) throw new LoggerInitException(PROPERTIES_FILE_CAN_NOT_BE_FOUND, fileName);</span></pre></td>
+    </tr>
+    <tr>
+      <td class='line'>45</td><td class='count'>2</td>
+      <td><pre class='prettyprint covered' id='l45s0'>		PropertyConfigurator.configure(fileName);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>46</td><td class='count'>2</td>
+      <td><pre class='prettyprint covered' id='l46s0'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のクラス名からロガーインスタンスを生成し、返却します。
+	 * @param classObject クラスオブジェクト
+	 * @return ロガーインスタンス
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>53</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public static Logger getLogger(Class&lt;?> classObject) {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>54</td><td class='count'>13</td>
+      <td><pre class='prettyprint covered' id='l54s0'>		return new Logger(org.apache.log4j.Logger.getLogger(classObject));</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>55</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定の名称からロガーインスタンスを生成し、返却します。
+	 * @param name 名称
+	 * @return ロガーインスタンス
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>62</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public static Logger getLogger(String name) {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>63</td><td class='count'>2</td>
+      <td><pre class='prettyprint covered' id='l63s0'>		return new Logger(org.apache.log4j.Logger.getLogger(name));</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>64</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>66</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>}</pre></td>
+    </tr>
+  </table>
+</body>
+</html>
