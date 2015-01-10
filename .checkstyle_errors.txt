@@ -1,231 +1,231 @@
 Starting audit...
-/home/dk/projects/Logger/src/jp/co/dk/logger/Loggable.java:3: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Loggable.java:5: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Loggable.java:10: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Loggable.java:10:1: File contains tab characters (this is the first instance).
-/home/dk/projects/Logger/src/jp/co/dk/logger/Loggable.java:11: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Loggable.java:13: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Loggable.java:17:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Loggable.java:18: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:3: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:13: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:18: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:18:1: File contains tab characters (this is the first instance).
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:19: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:19: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:20:43: 変数 'logger' は private とし、アクセッサメソッドを持つべきです。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:20:49: ';' の前にホワイトスペースがあります。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:21: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:22: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:23: 行が 80 文字を超えています。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:23:39: 名前 'lineSeparator' はパターン '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$' に一致しなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:24: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:25: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:28: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:31:16: Parameter logger should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:31:40: 'logger' がフィールドを隠しています。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:31:47: '{' の前にホワイトスペースがありません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:34: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:35: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:40:9: メソッド 'fatal' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:40:27: Parameter messege should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:43: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:44: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:49:9: メソッド 'fatal' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:49:27: Parameter messege should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:52: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:53: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:58:9: メソッド 'error' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:58:27: Parameter messege should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:61: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:62: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:67:9: メソッド 'error' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:67:27: Parameter messege should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:70: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:71: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:76:9: メソッド 'warn' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:76:26: Parameter messege should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:79: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:80: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:85:9: メソッド 'warn' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:85:26: Parameter messege should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:88: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:89: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:94:9: メソッド 'info' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:94:26: Parameter messege should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:97: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:98: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:103:9: メソッド 'info' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:103:26: Parameter messege should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:106: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:107: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:112:9: メソッド 'debug' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:112:27: Parameter messege should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:115: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:116: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:121:9: メソッド 'debug' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:121:27: Parameter messege should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:124: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:125: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:130:9: メソッド 'trace' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:130:27: Parameter messege should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:133: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:134: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:139:9: メソッド 'trace' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Logger/src/jp/co/dk/logger/Logger.java:139:27: Parameter messege should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:3: '.*' 形式のインポートの使用は避けるべきです - jp.co.dk.logger.messege.LoggerMessege.*。
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:11: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:14: 行が 80 文字を超えています。
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:18: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:22:1: Utility classes should not have a public or default constructor.
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:23: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:23:1: File contains tab characters (this is the first instance).
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:24: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:25: 行が 80 文字を超えています。
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:25:39: 名前 'propertiesFile' はパターン '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$' に一致しなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:26: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:34: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:35: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:41: 行が 80 文字を超えています。
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:41:48: Parameter fileName should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:41:72: LoggerInitException のクラス情報が取得できません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:42: 'if' 文では '{}' を使用しなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:42: 行が 80 文字を超えています。
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:43: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:44: 'if' 文では '{}' を使用しなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:44: 行が 80 文字を超えています。
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:47: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:48: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:53:40: Parameter classObject should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:54: 行が 80 文字を超えています。
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:56: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:57: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:62:40: Parameter name should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/LoggerFactory.java:65: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:8: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:10: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:14:65: '{' の前にホワイトスペースがありません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:15: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:15:1: File contains tab characters (this is the first instance).
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:16: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:21: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:23: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:25: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:29:37: Parameter msg should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:29:58: '{' の前にホワイトスペースがありません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:32: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:33: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:35: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:37: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:42:37: Parameter msg should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:42:59: Parameter str should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:42:70: '{' の前にホワイトスペースがありません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:45: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:46: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:48: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:50: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:55:37: Parameter msg should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:55:59: Parameter throwable should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:55:79: '{' の前にホワイトスペースがありません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:58: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:59: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:61: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:63: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:69: 行が 80 文字を超えています。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:69:37: Parameter msg should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:69:59: Parameter str should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:69:71: Parameter throwable should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:69:91: '{' の前にホワイトスペースがありません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:72: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:73: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:75: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:77: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:83: 行が 80 文字を超えています。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:83:37: Parameter msg should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:83:59: Parameter list should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:83:77: ',' の後にホワイトスペースがありません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:83:77: Parameter throwable should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:83:97: '{' の前にホワイトスペースがありません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:86: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:87: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:89: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:91: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:93:12: 'embeddedStrList' に対する使用されない @param タグです。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:97: 行が 80 文字を超えています。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:97:37: Parameter msg should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:97:59: Parameter str should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:97:68: 'str' には @param タグが必要です。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:97:73: Parameter throwable should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerFatalException.java:97:93: '{' の前にホワイトスペースがありません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:8: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:10: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:14:71: '{' の前にホワイトスペースがありません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:15: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:15:1: File contains tab characters (this is the first instance).
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:16: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:21: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:23: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:25: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:29:36: Parameter msg should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:29:57: '{' の前にホワイトスペースがありません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:32: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:33: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:35: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:37: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:42:36: Parameter msg should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:42:58: Parameter str should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:42:69: '{' の前にホワイトスペースがありません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:45: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:46: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:48: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:50: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:55:36: Parameter msg should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:55:58: Parameter throwable should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:55:78: '{' の前にホワイトスペースがありません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:58: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:59: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:61: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:63: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:69: 行が 80 文字を超えています。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:69:36: Parameter msg should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:69:58: Parameter str should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:69:70: Parameter throwable should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:69:90: '{' の前にホワイトスペースがありません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:72: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:73: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:75: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:77: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:83: 行が 80 文字を超えています。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:83:36: Parameter msg should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:83:58: Parameter list should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:83:76: ',' の後にホワイトスペースがありません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:83:76: Parameter throwable should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:83:96: '{' の前にホワイトスペースがありません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:86: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:87: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:89: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:91: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:97: 行が 80 文字を超えています。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:97:36: Parameter msg should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:97:58: Parameter str should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:97:72: Parameter throwable should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/LoggerInitException.java:97:92: '{' の前にホワイトスペースがありません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/package-info.java:0: ファイルが新しい行で終了していません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/exception/package-info.java:1: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/messege/LoggerMessege.java:7: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/messege/LoggerMessege.java:9: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/messege/LoggerMessege.java:13:75: '{' の前にホワイトスペースがありません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/messege/LoggerMessege.java:14: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/messege/LoggerMessege.java:14:1: File contains tab characters (this is the first instance).
-/home/dk/projects/Logger/src/jp/co/dk/logger/messege/LoggerMessege.java:15: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/messege/LoggerMessege.java:17: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/messege/LoggerMessege.java:18: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/messege/LoggerMessege.java:19: 行が 80 文字を超えています。
-/home/dk/projects/Logger/src/jp/co/dk/logger/messege/LoggerMessege.java:20: Line has trailing spaces.
-/home/dk/projects/Logger/src/jp/co/dk/logger/messege/LoggerMessege.java:21:9: Javadoc コメントがありません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/messege/LoggerMessege.java:21:33: Parameter messageId should be final.
-/home/dk/projects/Logger/src/jp/co/dk/logger/messege/package-info.java:0: ファイルが新しい行で終了していません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/messege/package-info.java:1: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/package-info.java:0: ファイルが新しい行で終了していません。
-/home/dk/projects/Logger/src/jp/co/dk/logger/package-info.java:1: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Loggable.java:3: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Loggable.java:5: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Loggable.java:10: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Loggable.java:10:1: File contains tab characters (this is the first instance).
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Loggable.java:11: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Loggable.java:13: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Loggable.java:17:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Loggable.java:18: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:3: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:13: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:18: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:18:1: File contains tab characters (this is the first instance).
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:19: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:19: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:20:43: 変数 'logger' は private とし、アクセッサメソッドを持つべきです。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:20:49: ';' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:21: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:22: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:23: 行が 80 文字を超えています。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:23:39: 名前 'lineSeparator' はパターン '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$' に一致しなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:24: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:25: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:28: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:31:16: Parameter logger should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:31:40: 'logger' がフィールドを隠しています。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:31:47: '{' の前にホワイトスペースがありません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:34: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:35: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:40:9: メソッド 'fatal' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:40:27: Parameter messege should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:43: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:44: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:49:9: メソッド 'fatal' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:49:27: Parameter messege should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:52: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:53: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:58:9: メソッド 'error' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:58:27: Parameter messege should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:61: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:62: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:67:9: メソッド 'error' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:67:27: Parameter messege should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:70: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:71: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:76:9: メソッド 'warn' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:76:26: Parameter messege should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:79: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:80: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:85:9: メソッド 'warn' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:85:26: Parameter messege should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:88: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:89: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:94:9: メソッド 'info' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:94:26: Parameter messege should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:97: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:98: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:103:9: メソッド 'info' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:103:26: Parameter messege should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:106: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:107: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:112:9: メソッド 'debug' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:112:27: Parameter messege should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:115: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:116: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:121:9: メソッド 'debug' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:121:27: Parameter messege should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:124: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:125: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:130:9: メソッド 'trace' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:130:27: Parameter messege should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:133: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:134: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:139:9: メソッド 'trace' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:139:27: Parameter messege should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:3: '.*' 形式のインポートの使用は避けるべきです - jp.co.dk.logger.messege.LoggerMessege.*。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:11: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:14: 行が 80 文字を超えています。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:18: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:22:1: Utility classes should not have a public or default constructor.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:23: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:23:1: File contains tab characters (this is the first instance).
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:24: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:25: 行が 80 文字を超えています。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:25:39: 名前 'propertiesFile' はパターン '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$' に一致しなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:26: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:34: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:35: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:41: 行が 80 文字を超えています。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:41:48: Parameter fileName should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:41:72: LoggerInitException のクラス情報が取得できません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:42: 'if' 文では '{}' を使用しなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:42: 行が 80 文字を超えています。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:43: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:44: 'if' 文では '{}' を使用しなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:44: 行が 80 文字を超えています。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:47: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:48: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:53:40: Parameter classObject should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:54: 行が 80 文字を超えています。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:56: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:57: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:62:40: Parameter name should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:65: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:8: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:10: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:14:65: '{' の前にホワイトスペースがありません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:15: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:15:1: File contains tab characters (this is the first instance).
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:16: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:21: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:23: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:25: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:29:37: Parameter msg should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:29:58: '{' の前にホワイトスペースがありません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:32: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:33: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:35: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:37: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:42:37: Parameter msg should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:42:59: Parameter str should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:42:70: '{' の前にホワイトスペースがありません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:45: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:46: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:48: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:50: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:55:37: Parameter msg should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:55:59: Parameter throwable should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:55:79: '{' の前にホワイトスペースがありません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:58: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:59: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:61: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:63: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:69: 行が 80 文字を超えています。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:69:37: Parameter msg should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:69:59: Parameter str should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:69:71: Parameter throwable should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:69:91: '{' の前にホワイトスペースがありません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:72: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:73: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:75: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:77: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:83: 行が 80 文字を超えています。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:83:37: Parameter msg should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:83:59: Parameter list should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:83:77: ',' の後にホワイトスペースがありません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:83:77: Parameter throwable should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:83:97: '{' の前にホワイトスペースがありません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:86: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:87: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:89: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:91: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:93:12: 'embeddedStrList' に対する使用されない @param タグです。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:97: 行が 80 文字を超えています。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:97:37: Parameter msg should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:97:59: Parameter str should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:97:68: 'str' には @param タグが必要です。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:97:73: Parameter throwable should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerFatalException.java:97:93: '{' の前にホワイトスペースがありません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:8: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:10: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:14:71: '{' の前にホワイトスペースがありません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:15: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:15:1: File contains tab characters (this is the first instance).
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:16: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:21: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:23: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:25: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:29:36: Parameter msg should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:29:57: '{' の前にホワイトスペースがありません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:32: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:33: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:35: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:37: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:42:36: Parameter msg should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:42:58: Parameter str should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:42:69: '{' の前にホワイトスペースがありません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:45: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:46: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:48: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:50: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:55:36: Parameter msg should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:55:58: Parameter throwable should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:55:78: '{' の前にホワイトスペースがありません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:58: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:59: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:61: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:63: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:69: 行が 80 文字を超えています。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:69:36: Parameter msg should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:69:58: Parameter str should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:69:70: Parameter throwable should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:69:90: '{' の前にホワイトスペースがありません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:72: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:73: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:75: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:77: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:83: 行が 80 文字を超えています。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:83:36: Parameter msg should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:83:58: Parameter list should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:83:76: ',' の後にホワイトスペースがありません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:83:76: Parameter throwable should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:83:96: '{' の前にホワイトスペースがありません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:86: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:87: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:89: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:91: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:97: 行が 80 文字を超えています。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:97:36: Parameter msg should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:97:58: Parameter str should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:97:72: Parameter throwable should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/LoggerInitException.java:97:92: '{' の前にホワイトスペースがありません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/package-info.java:0: ファイルが新しい行で終了していません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/exception/package-info.java:1: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/messege/LoggerMessege.java:7: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/messege/LoggerMessege.java:9: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/messege/LoggerMessege.java:13:75: '{' の前にホワイトスペースがありません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/messege/LoggerMessege.java:14: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/messege/LoggerMessege.java:14:1: File contains tab characters (this is the first instance).
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/messege/LoggerMessege.java:15: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/messege/LoggerMessege.java:17: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/messege/LoggerMessege.java:18: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/messege/LoggerMessege.java:19: 行が 80 文字を超えています。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/messege/LoggerMessege.java:20: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/messege/LoggerMessege.java:21:9: Javadoc コメントがありません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/messege/LoggerMessege.java:21:33: Parameter messageId should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/messege/package-info.java:0: ファイルが新しい行で終了していません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/messege/package-info.java:1: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/package-info.java:0: ファイルが新しい行で終了していません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/package-info.java:1: 最初の一文はピリオドで終わらなければなりません。
 Audit done.

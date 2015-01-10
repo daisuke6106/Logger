@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BugCollection version="2.0.2" sequence="0" timestamp="1403025968895" analysisTimestamp="1403025968929" release="">
+<BugCollection version="2.0.2" sequence="0" timestamp="1420913505729" analysisTimestamp="1420913505740" release="">
   <Project projectName="">
-    <Jar>/home/dk/projects/Logger/logger.jar</Jar>
-    <AuxClasspathEntry>/home/dk/projects/Logger/lib/commons-logging-1.1.3-javadoc.jar</AuxClasspathEntry>
-    <AuxClasspathEntry>/home/dk/projects/Logger/lib/commons-logging-1.1.3-sources.jar</AuxClasspathEntry>
-    <AuxClasspathEntry>/home/dk/projects/Logger/lib/commons-logging-1.1.3-test-sources.jar</AuxClasspathEntry>
-    <AuxClasspathEntry>/home/dk/projects/Logger/lib/commons-logging-1.1.3-tests.jar</AuxClasspathEntry>
-    <AuxClasspathEntry>/home/dk/projects/Logger/lib/commons-logging-1.1.3.jar</AuxClasspathEntry>
-    <AuxClasspathEntry>/home/dk/projects/Logger/lib/commons-logging-adapters-1.1.3.jar</AuxClasspathEntry>
-    <AuxClasspathEntry>/home/dk/projects/Logger/lib/commons-logging-api-1.1.3.jar</AuxClasspathEntry>
-    <AuxClasspathEntry>/home/dk/projects/Logger/lib/commons-logging-tests.jar</AuxClasspathEntry>
-    <AuxClasspathEntry>/home/dk/projects/Logger/lib/log4j-1.2.17.jar</AuxClasspathEntry>
-    <AuxClasspathEntry>/home/dk/projects/Logger/lib/message_all.jar</AuxClasspathEntry>
-    <AuxClasspathEntry>/home/dk/projects/Logger/lib/property_all.jar</AuxClasspathEntry>
-    <AuxClasspathEntry>/home/dk/projects/Logger/lib/test/jmockit-coverage.jar</AuxClasspathEntry>
-    <AuxClasspathEntry>/home/dk/projects/Logger/lib/test/jmockit.jar</AuxClasspathEntry>
-    <AuxClasspathEntry>/home/dk/projects/Logger/lib/test/testtemplate_all.jar</AuxClasspathEntry>
-    <SrcDir>/home/dk/projects/Logger/src</SrcDir>
+    <Jar>/home/dk/github_workspace/Logger/logger.jar</Jar>
+    <AuxClasspathEntry>/home/dk/github_workspace/Logger/lib/log4j-1.2.17.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/dk/github_workspace/Logger/lib/message_all.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/dk/github_workspace/Logger/lib/property_all.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/dk/github_workspace/Logger/lib/test/jmockit-coverage.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/dk/github_workspace/Logger/lib/test/jmockit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/dk/github_workspace/Logger/lib/test/testtemplate_all.jar</AuxClasspathEntry>
+    <SrcDir>/home/dk/github_workspace/Logger/src/main/java</SrcDir>
   </Project>
   <Errors errors="5" missingClasses="0">
     <Error>
       <ErrorMessage>Unable to get XClass for java/lang/StringBuilder</ErrorMessage>
-      <Exception>java.lang.ArrayIndexOutOfBoundsException: 26721</Exception>
+      <Exception>java.lang.ArrayIndexOutOfBoundsException: 5747</Exception>
       <StackTrace>org.objectweb.asm.ClassReader.readClass(Unknown Source)</StackTrace>
       <StackTrace>org.objectweb.asm.ClassReader.accept(Unknown Source)</StackTrace>
       <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.accept(FBClassReader.java:44)</StackTrace>
@@ -45,7 +37,8 @@
     </Error>
     <Error>
       <ErrorMessage>Unable to get XClass for java/util/Arrays</ErrorMessage>
-      <Exception>java.lang.ArrayIndexOutOfBoundsException: 35328</Exception>
+      <Exception>java.lang.ArrayIndexOutOfBoundsException: 40705</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.readClass(Unknown Source)</StackTrace>
       <StackTrace>org.objectweb.asm.ClassReader.accept(Unknown Source)</StackTrace>
       <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.accept(FBClassReader.java:44)</StackTrace>
       <StackTrace>org.objectweb.asm.ClassReader.accept(Unknown Source)</StackTrace>
@@ -63,7 +56,7 @@
     </Error>
     <Error>
       <ErrorMessage>Unable to get XClass for java/lang/String</ErrorMessage>
-      <Exception>java.lang.ArrayIndexOutOfBoundsException: 26721</Exception>
+      <Exception>java.lang.ArrayIndexOutOfBoundsException: 5747</Exception>
       <StackTrace>org.objectweb.asm.ClassReader.readClass(Unknown Source)</StackTrace>
       <StackTrace>org.objectweb.asm.ClassReader.accept(Unknown Source)</StackTrace>
       <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.accept(FBClassReader.java:44)</StackTrace>
@@ -86,7 +79,9 @@
     </Error>
     <Error>
       <ErrorMessage>Unable to get XClass for java/lang/Class</ErrorMessage>
-      <Exception>java.lang.ArrayIndexOutOfBoundsException: 2560</Exception>
+      <Exception>java.lang.ArrayIndexOutOfBoundsException: 207</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.a(Unknown Source)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.readUTF8(Unknown Source)</StackTrace>
       <StackTrace>org.objectweb.asm.ClassReader.readClass(Unknown Source)</StackTrace>
       <StackTrace>org.objectweb.asm.ClassReader.accept(Unknown Source)</StackTrace>
       <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.accept(FBClassReader.java:44)</StackTrace>
@@ -109,7 +104,8 @@
     </Error>
     <Error>
       <ErrorMessage>Couldn&apos;t get class info for java/util/Arrays</ErrorMessage>
-      <Exception>java.lang.ArrayIndexOutOfBoundsException: 35328</Exception>
+      <Exception>java.lang.ArrayIndexOutOfBoundsException: 40705</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.readClass(Unknown Source)</StackTrace>
       <StackTrace>org.objectweb.asm.ClassReader.accept(Unknown Source)</StackTrace>
       <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.accept(FBClassReader.java:44)</StackTrace>
       <StackTrace>org.objectweb.asm.ClassReader.accept(Unknown Source)</StackTrace>
@@ -126,11 +122,10 @@
       <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1298)</StackTrace>
     </Error>
   </Errors>
-  <FindBugsSummary timestamp="Wed, 18 Jun 2014 02:26:08 +0900" total_classes="0" referenced_classes="51" total_bugs="0" total_size="0" num_packages="0" vm_version="25.5-b02" cpu_seconds="1.59" clock_seconds="1.66" peak_mbytes="78.48" alloc_mbytes="780.50" gc_seconds="0.04">
+  <FindBugsSummary timestamp="Sun, 11 Jan 2015 03:11:45 +0900" total_classes="0" referenced_classes="51" total_bugs="0" total_size="0" num_packages="0" vm_version="25.20-b23" cpu_seconds="1.33" clock_seconds="0.42" peak_mbytes="93.12" alloc_mbytes="1749.50" gc_seconds="0.02">
     <FindBugsProfile>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="382" invocations="118" avgMicrosecondsPerInvocation="3240" maxMicrosecondsPerInvocation="33700" standardDeviationMircosecondsPerInvocation="6414"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="196" invocations="32" avgMicrosecondsPerInvocation="6129" maxMicrosecondsPerInvocation="182117" standardDeviationMircosecondsPerInvocation="31656"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="128" invocations="119" avgMicrosecondsPerInvocation="1081" maxMicrosecondsPerInvocation="42308" standardDeviationMircosecondsPerInvocation="4506"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="137" invocations="118" avgMicrosecondsPerInvocation="1164" maxMicrosecondsPerInvocation="25870" standardDeviationMircosecondsPerInvocation="2882"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="39" invocations="24" avgMicrosecondsPerInvocation="1634" maxMicrosecondsPerInvocation="37880" standardDeviationMircosecondsPerInvocation="7558"/>
     </FindBugsProfile>
   </FindBugsSummary>
   <ClassFeatures></ClassFeatures>
