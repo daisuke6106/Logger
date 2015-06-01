@@ -3,6 +3,7 @@ package jp.co.dk.logger;
 import static jp.co.dk.logger.messege.LoggerMessege.*;
 
 import java.io.File;
+import java.net.URL;
 
 import jp.co.dk.logger.exception.LoggerInitException;
 
@@ -22,7 +23,7 @@ import org.apache.log4j.PropertyConfigurator;
 public class LoggerFactory {
 	
 	/** プロパティファイル */
-	protected static final String propertiesFile = "properties/Logger.properties";
+	protected static final String propertiesFile = "Logger.properties";
 	
 	/**
 	 * スタティックイニシャライザ<p/>
@@ -40,9 +41,10 @@ public class LoggerFactory {
 	 */
 	protected static void readPropertyFile(String fileName) throws LoggerInitException {
 		if (fileName == null) throw new LoggerInitException(PROPERTIES_FILE_CAN_NOT_BE_FOUND, "null");
-		File propertiesFileObj = new File(fileName); 
-		if (!propertiesFileObj.exists()) throw new LoggerInitException(PROPERTIES_FILE_CAN_NOT_BE_FOUND, fileName);
-		PropertyConfigurator.configure(fileName);
+		if (fileName.equals("")) throw new LoggerInitException(PROPERTIES_FILE_CAN_NOT_BE_FOUND, "");
+		URL fileURL = Thread.currentThread().getContextClassLoader().getResource(fileName);
+		if (fileURL == null) throw new LoggerInitException(PROPERTIES_FILE_CAN_NOT_BE_FOUND, fileName);
+		PropertyConfigurator.configure(Thread.currentThread().getContextClassLoader().getResource(fileName));
 	}
 	
 	/**

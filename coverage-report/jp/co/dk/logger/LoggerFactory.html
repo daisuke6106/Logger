@@ -20,6 +20,7 @@
       <td><pre class='imports prettyprint' onclick='showHideLines(this)'><div>import static jp.co.dk.logger.messege.LoggerMessege.*;
 
 import java.io.File;
+import java.net.URL;
 
 import jp.co.dk.logger.exception.LoggerInitException;
 
@@ -42,17 +43,17 @@ import org.apache.log4j.PropertyConfigurator;
  */</div><span>/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>22</td><td class='count'>0</td>
-      <td><pre class='prettyprint uncovered' id='l22s0'>public class LoggerFactory {</pre></td>
+      <td class='line'>23</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l23s0'>public class LoggerFactory {</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
-      <td class='line'>24</td><td>&nbsp;</td>
+      <td class='line'>25</td><td>&nbsp;</td>
       <td><pre class='comment'>	/** プロパティファイル */</pre></td>
     </tr>
     <tr>
-      <td class='line'>25</td><td>&nbsp;</td>
-      <td><pre class='prettyprint'>	protected static final String propertiesFile = "properties/Logger.properties";</pre></td>
+      <td class='line'>26</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	protected static final String propertiesFile = "Logger.properties";</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
@@ -63,16 +64,16 @@ import org.apache.log4j.PropertyConfigurator;
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>31</td><td>&nbsp;</td>
+      <td class='line'>32</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	static {</pre></td>
     </tr>
     <tr>
-      <td class='line'>32</td><td class='count'>0</td>
-      <td><pre class='prettyprint uncovered' id='l32s0'>		readPropertyFile(LoggerFactory.propertiesFile);</pre></td>
+      <td class='line'>33</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l33s0'>		readPropertyFile(LoggerFactory.propertiesFile);</pre></td>
     </tr>
     <tr>
-      <td class='line'>33</td><td class='count'>0</td>
-      <td><pre class='prettyprint uncovered' id='l33s0'>	}</pre></td>
+      <td class='line'>34</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l34s0'>	}</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
@@ -85,37 +86,29 @@ import org.apache.log4j.PropertyConfigurator;
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>41</td><td>&nbsp;</td>
+      <td class='line'>42</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	protected static void readPropertyFile(String fileName) throws LoggerInitException {</pre></td>
     </tr>
     <tr>
       <td></td><td class='count'>0</td>
       <td class='paths'>
         <span style='cursor:default; background-color:#ff0000' onclick='hidePath()'>Path coverage: 0/3</span>
-        <span class='uncovered' onclick="showPath(this,'l42s0 l42s1')">A: 0</span>
-        <span class='uncovered' onclick="showPath(this,'l42s0 l43s0 l44s0 l44s1')">B: 0</span>
-        <span class='uncovered' onclick="showPath(this,'l42s0 l43s0 l44s0 l45s0 l46s0')">C: 0</span>
+        <span class='uncovered' onclick="showPath(this,'l43s0 l43s2')">A: 0</span>
+        <span class='uncovered' onclick="showPath(this,'l43s0 l43s1 l43s2')">B: 0</span>
+        <span class='uncovered' onclick="showPath(this,'l43s0 l43s1 l44s0 l45s0')">C: 0</span>
       </td>
     </tr>
     <tr>
-      <td class='line'>42</td><td class='count'>0</td>
-      <td><pre class='prettyprint jmp'>		<span id='l42s0' title='Executions: 0' class='uncovered'>if (fileName == null)</span> <span id='l42s1' title='Executions: 0' class='uncovered'>throw new LoggerInitException(PROPERTIES_FILE_CAN_NOT_BE_FOUND, "null");</span></pre></td>
-    </tr>
-    <tr>
       <td class='line'>43</td><td class='count'>0</td>
-      <td><pre class='prettyprint uncovered' id='l43s0'>		File propertiesFileObj = new File(fileName); </pre></td>
+      <td><pre class='prettyprint jmp'>		<span id='l43s0' title='Executions: 0' class='uncovered'>if (fileName == null</span> || <span id='l43s1' title='Executions: 0' class='uncovered'>fileName.equals("")) throw new LoggerInitException(PROPERTIES_FILE_CAN_NOT_BE_FOUND, "null");</span></pre></td>
     </tr>
     <tr>
       <td class='line'>44</td><td class='count'>0</td>
-      <td><pre class='prettyprint jmp'>		<span id='l44s0' title='Executions: 0' class='uncovered'>if (!propertiesFileObj.exists()) throw new LoggerInitException(PROPERTIES_FILE_CAN_NOT_BE_FOUND, fileName);</span></pre></td>
+      <td><pre class='prettyprint uncovered' id='l44s0'>		PropertyConfigurator.configure(Thread.currentThread().getContextClassLoader().getResource(fileName));</pre></td>
     </tr>
     <tr>
       <td class='line'>45</td><td class='count'>0</td>
-      <td><pre class='prettyprint uncovered' id='l45s0'>		PropertyConfigurator.configure(fileName);</pre></td>
-    </tr>
-    <tr>
-      <td class='line'>46</td><td class='count'>0</td>
-      <td><pre class='prettyprint uncovered' id='l46s0'>	}</pre></td>
+      <td><pre class='prettyprint uncovered' id='l45s0'>	}</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
@@ -127,15 +120,15 @@ import org.apache.log4j.PropertyConfigurator;
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>53</td><td>&nbsp;</td>
+      <td class='line'>52</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public static Logger getLogger(Class&lt;?> classObject) {</pre></td>
     </tr>
     <tr>
-      <td class='line'>54</td><td class='count'>0</td>
-      <td><pre class='prettyprint uncovered' id='l54s0'>		return new Logger(org.apache.log4j.Logger.getLogger(classObject));</pre></td>
+      <td class='line'>53</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l53s0'>		return new Logger(org.apache.log4j.Logger.getLogger(classObject));</pre></td>
     </tr>
     <tr>
-      <td class='line'>55</td><td>&nbsp;</td>
+      <td class='line'>54</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	}</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -148,20 +141,20 @@ import org.apache.log4j.PropertyConfigurator;
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>62</td><td>&nbsp;</td>
+      <td class='line'>61</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public static Logger getLogger(String name) {</pre></td>
     </tr>
     <tr>
-      <td class='line'>63</td><td class='count'>0</td>
-      <td><pre class='prettyprint uncovered' id='l63s0'>		return new Logger(org.apache.log4j.Logger.getLogger(name));</pre></td>
+      <td class='line'>62</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l62s0'>		return new Logger(org.apache.log4j.Logger.getLogger(name));</pre></td>
     </tr>
     <tr>
-      <td class='line'>64</td><td>&nbsp;</td>
+      <td class='line'>63</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	}</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
-      <td class='line'>66</td><td>&nbsp;</td>
+      <td class='line'>65</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>}</pre></td>
     </tr>
   </table>
