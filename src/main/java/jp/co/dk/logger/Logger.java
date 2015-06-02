@@ -139,6 +139,35 @@ public class Logger {
 	public void trace(Loggable messege) {
 		this.logger.trace(messege.printLog(lineSeparator));
 	}
+	
+	/**
+	 * コンストラクタ実行時にログに出力します。<br/>
+	 * コンストラクタ実行時にログにその旨を記述します。その際のログレベルは[info]です。
+	 * 
+	 * @param classInstance コンストラクタを実行したクラス
+	 */
+	public void constractor(Class<?> classInstance) {
+		this.logger.info("Create instance class=[" + classInstance.getName() + "] param=[nothing]");
+	}
+	
+	/**
+	 * コンストラクタ実行時にログに出力します。<br/>
+	 * コンストラクタ実行時にログにその旨をパラメータとともに記述します。その際のログレベルは[info]です。
+	 * 
+	 * @param classInstance コンストラクタを実行したクラス
+	 * @param parameters コンストラクタに渡されたパラメータ一覧
+	 */
+	public void constractor(Class<?> classInstance, Object... parameters) {
+		StringBuilder paramStr = new StringBuilder();
+		for (Object parameter : parameters) {
+			if (parameter != null) {
+				paramStr.append(parameter.toString()).append(',');
+			} else {
+				paramStr.append("null").append(',');
+			}
+		}
+		this.logger.info("Create instance class=[" + classInstance.getName() + "] param=[" + paramStr.substring(0, paramStr.length() -1 ) + "]");
+	}
 }
 
 

@@ -92,23 +92,36 @@ import org.apache.log4j.PropertyConfigurator;
     <tr>
       <td></td><td class='count'>0</td>
       <td class='paths'>
-        <span style='cursor:default; background-color:#ff0000' onclick='hidePath()'>Path coverage: 0/3</span>
-        <span class='uncovered' onclick="showPath(this,'l43s0 l43s2')">A: 0</span>
-        <span class='uncovered' onclick="showPath(this,'l43s0 l43s1 l43s2')">B: 0</span>
-        <span class='uncovered' onclick="showPath(this,'l43s0 l43s1 l44s0 l45s0')">C: 0</span>
+        <span style='cursor:default; background-color:#ff0000' onclick='hidePath()'>Path coverage: 0/4</span>
+        <span class='uncovered' onclick="showPath(this,'l43s0 l43s1')">A: 0</span>
+        <span class='uncovered' onclick="showPath(this,'l43s0 l44s0 l44s1')">B: 0</span>
+        <span class='uncovered' onclick="showPath(this,'l43s0 l44s0 l45s0 l46s0 l46s1')">C: 0</span>
+        <span class='uncovered' onclick="showPath(this,'l43s0 l44s0 l45s0 l46s0 l47s0 l48s0')">D: 0</span>
       </td>
     </tr>
     <tr>
       <td class='line'>43</td><td class='count'>0</td>
-      <td><pre class='prettyprint jmp'>		<span id='l43s0' title='Executions: 0' class='uncovered'>if (fileName == null</span> || <span id='l43s1' title='Executions: 0' class='uncovered'>fileName.equals("")) throw new LoggerInitException(PROPERTIES_FILE_CAN_NOT_BE_FOUND, "null");</span></pre></td>
+      <td><pre class='prettyprint jmp'>		<span id='l43s0' title='Executions: 0' class='uncovered'>if (fileName == null)</span> <span id='l43s1' title='Executions: 0' class='uncovered'>throw new LoggerInitException(PROPERTIES_FILE_CAN_NOT_BE_FOUND, "null");</span></pre></td>
     </tr>
     <tr>
       <td class='line'>44</td><td class='count'>0</td>
-      <td><pre class='prettyprint uncovered' id='l44s0'>		PropertyConfigurator.configure(Thread.currentThread().getContextClassLoader().getResource(fileName));</pre></td>
+      <td><pre class='prettyprint jmp'>		<span id='l44s0' title='Executions: 0' class='uncovered'>if (fileName.equals("")) throw new LoggerInitException(PROPERTIES_FILE_CAN_NOT_BE_FOUND, "");</span></pre></td>
     </tr>
     <tr>
       <td class='line'>45</td><td class='count'>0</td>
-      <td><pre class='prettyprint uncovered' id='l45s0'>	}</pre></td>
+      <td><pre class='prettyprint uncovered' id='l45s0'>		URL fileURL = Thread.currentThread().getContextClassLoader().getResource(fileName);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>46</td><td class='count'>0</td>
+      <td><pre class='prettyprint jmp'>		<span id='l46s0' title='Executions: 0' class='uncovered'>if (fileURL == null)</span> <span id='l46s1' title='Executions: 0' class='uncovered'>throw new LoggerInitException(PROPERTIES_FILE_CAN_NOT_BE_FOUND, fileName);</span></pre></td>
+    </tr>
+    <tr>
+      <td class='line'>47</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l47s0'>		PropertyConfigurator.configure(Thread.currentThread().getContextClassLoader().getResource(fileName));</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>48</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l48s0'>	}</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
@@ -120,15 +133,15 @@ import org.apache.log4j.PropertyConfigurator;
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>52</td><td>&nbsp;</td>
+      <td class='line'>55</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public static Logger getLogger(Class&lt;?> classObject) {</pre></td>
     </tr>
     <tr>
-      <td class='line'>53</td><td class='count'>0</td>
-      <td><pre class='prettyprint uncovered' id='l53s0'>		return new Logger(org.apache.log4j.Logger.getLogger(classObject));</pre></td>
+      <td class='line'>56</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l56s0'>		return new Logger(org.apache.log4j.Logger.getLogger(classObject));</pre></td>
     </tr>
     <tr>
-      <td class='line'>54</td><td>&nbsp;</td>
+      <td class='line'>57</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	}</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -141,20 +154,20 @@ import org.apache.log4j.PropertyConfigurator;
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>61</td><td>&nbsp;</td>
+      <td class='line'>64</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public static Logger getLogger(String name) {</pre></td>
     </tr>
     <tr>
-      <td class='line'>62</td><td class='count'>0</td>
-      <td><pre class='prettyprint uncovered' id='l62s0'>		return new Logger(org.apache.log4j.Logger.getLogger(name));</pre></td>
+      <td class='line'>65</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l65s0'>		return new Logger(org.apache.log4j.Logger.getLogger(name));</pre></td>
     </tr>
     <tr>
-      <td class='line'>63</td><td>&nbsp;</td>
+      <td class='line'>66</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	}</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
-      <td class='line'>65</td><td>&nbsp;</td>
+      <td class='line'>68</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>}</pre></td>
     </tr>
   </table>

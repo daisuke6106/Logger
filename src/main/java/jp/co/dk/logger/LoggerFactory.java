@@ -13,7 +13,7 @@ import org.apache.log4j.PropertyConfigurator;
  * LoggerFactoryは、指定のクラス名称、もしくは別名称を元にその名称に紐づくロギング設定でログインスタンスを生成するファクトリクラスです。<p/>
  * <br/>
  * このクラスに対して"getLogger"クラスを実行することで引数に指定されたクラス名称、もしくは別名称に紐づくロギング設定でログインスタンスを返却します。<br/>
- * 各種ログの設定はクラスパス上に存在する"properties/Logger.properties"から読み込みます。<br/>
+ * 各種ログの設定はクラスパス上に存在する"Logger.properties"から読み込みます。<br/>
  * <br/>
  * このファイルが存在しない場合、LoggerInitExceptionが発生します。
  * 
