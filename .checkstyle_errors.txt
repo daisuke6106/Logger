@@ -87,8 +87,27 @@ Starting audit...
 /home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:160:57: Parameter parameters should be final.
 /home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:164: 行が 80 文字を超えています。
 /home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:169: 行が 80 文字を超えています。
-/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:169:143: '-' の後にホワイトスペースがありません。
-/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:169:144: ')' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:169:144: '-' の後にホワイトスペースがありません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:169:145: ')' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:171: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:172: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:175: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:179:9: メソッド 'callMethod' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:179:32: Parameter classInstance should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:179:56: Parameter methodName should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:180: 行が 80 文字を超えています。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:182: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:183: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:186: Line has trailing spaces.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:191: 行が 80 文字を超えています。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:191:9: メソッド 'callMethod' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:191:32: Parameter classInstance should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:191:56: Parameter methodName should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:191:75: Parameter parameters should be final.
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:195: 行が 80 文字を超えています。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:200: 行が 80 文字を超えています。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:200:168: '-' の後にホワイトスペースがありません。
+/home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/Logger.java:200:169: ')' の前にホワイトスペースがあります。
 /home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:3: '.*' 形式のインポートの使用は避けるべきです - jp.co.dk.logger.messege.LoggerMessege.*。
 /home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:5:8: 使用されないインポートです - java.io.File。
 /home/dk/github_workspace/Logger/src/main/java/jp/co/dk/logger/LoggerFactory.java:12: 最初の一文はピリオドで終わらなければなりません。
