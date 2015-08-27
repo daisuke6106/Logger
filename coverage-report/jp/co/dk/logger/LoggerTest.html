@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JMockit Coverage Report - LoggerTest.java</title>
+  <title>LoggerTest.java</title>
   <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/>
   <link rel='stylesheet' type='text/css' href='../../../../coverage.css'/>
+  <link rel='shortcut icon' type='image/png' href='../../../../logo.png'/>
   <script type='text/javascript' src='../../../../coverage.js'></script>
   <script type='text/javascript' src='../../../../prettify.js'></script>
 </head>
@@ -680,37 +681,37 @@ import org.junit.Test;
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
       <td class='line'>183</td><td>&nbsp;</td>
-      <td><pre class='prettyprint'>class DummyLoger extends org.apache.log4j.Logger {</pre></td>
+      <td><pre class='prettyprint'>class DummyLoger extends com.spinn3r.log5j.Logger {</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
       <td class='line'>185</td><td>&nbsp;</td>
-      <td><pre class='prettyprint'>	protected Object <span class='instance uncovered' title='Reads: 0 Writes: 0'>fatal</span>;</pre></td>
+      <td><pre class='prettyprint'>	protected Object fatal;</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
       <td class='line'>187</td><td>&nbsp;</td>
-      <td><pre class='prettyprint'>	protected Object <span class='instance uncovered' title='Reads: 0 Writes: 0'>error</span>;</pre></td>
+      <td><pre class='prettyprint'>	protected Object error;</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
       <td class='line'>189</td><td>&nbsp;</td>
-      <td><pre class='prettyprint'>	protected Object <span class='instance uncovered' title='Reads: 0 Writes: 0'>warn</span>;</pre></td>
+      <td><pre class='prettyprint'>	protected Object warn;</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
       <td class='line'>191</td><td>&nbsp;</td>
-      <td><pre class='prettyprint'>	protected Object <span class='instance uncovered' title='Reads: 0 Writes: 0'>info</span>;</pre></td>
+      <td><pre class='prettyprint'>	protected Object info;</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
       <td class='line'>193</td><td>&nbsp;</td>
-      <td><pre class='prettyprint'>	protected Object <span class='instance uncovered' title='Reads: 0 Writes: 0'>debug</span>;</pre></td>
+      <td><pre class='prettyprint'>	protected Object debug;</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
       <td class='line'>195</td><td>&nbsp;</td>
-      <td><pre class='prettyprint'>	protected Object <span class='instance uncovered' title='Reads: 0 Writes: 0'>trace</span>;</pre></td>
+      <td><pre class='prettyprint'>	protected Object trace;</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
@@ -718,12 +719,12 @@ import org.junit.Test;
       <td><pre class='prettyprint'>	protected DummyLoger(String name) {</pre></td>
     </tr>
     <tr>
-      <td class='line'>198</td><td class='count'>0</td>
-      <td><pre class='prettyprint uncovered' id='l198s0'>		super(name);</pre></td>
+      <td class='line'>198</td><td class='count'>6</td>
+      <td><pre class='prettyprint covered' id='l198s0'>		super("", true);</pre></td>
     </tr>
     <tr>
-      <td class='line'>199</td><td class='count'>0</td>
-      <td><pre class='prettyprint uncovered' id='l199s0'>	}</pre></td>
+      <td class='line'>199</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	}</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
@@ -834,8 +835,8 @@ import org.junit.Test;
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
-      <td class='line'>233</td><td>&nbsp;</td>
-      <td><pre class='prettyprint'>class DummyLoggable implements Loggable {</pre></td>
+      <td class='line'>233</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l233s0'>class DummyLoggable implements Loggable {</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
@@ -852,12 +853,12 @@ import org.junit.Test;
       <td><pre class='prettyprint'>	public String printLog(String lineSeparator) {</pre></td>
     </tr>
     <tr>
-      <td class='line'>239</td><td>&nbsp;</td>
-      <td><pre class='prettyprint'>		this.lineSeparator = lineSeparator;</pre></td>
+      <td class='line'>239</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l239s0'>		this.lineSeparator = lineSeparator;</pre></td>
     </tr>
     <tr>
-      <td class='line'>240</td><td>&nbsp;</td>
-      <td><pre class='prettyprint'>		return "printlog";</pre></td>
+      <td class='line'>240</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l240s0'>		return "printlog";</pre></td>
     </tr>
     <tr>
       <td class='line'>241</td><td>&nbsp;</td>
@@ -873,8 +874,8 @@ import org.junit.Test;
       <td><pre class='prettyprint'>	public String toString() {</pre></td>
     </tr>
     <tr>
-      <td class='line'>245</td><td>&nbsp;</td>
-      <td><pre class='prettyprint'>		return "tostring";</pre></td>
+      <td class='line'>245</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l245s0'>		return "tostring";</pre></td>
     </tr>
     <tr>
       <td class='line'>246</td><td>&nbsp;</td>

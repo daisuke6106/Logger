@@ -17,7 +17,7 @@ package jp.co.dk.logger;
 public class Logger {
 	
 	/** Log4jロガーインスタンス */ 
-	protected org.apache.log4j.Logger logger ;
+	protected com.spinn3r.log5j.Logger logger ;
 	
 	/** 改行コード */
 	protected static final String lineSeparator = System.getProperty("line.separator");
@@ -28,7 +28,7 @@ public class Logger {
 	 * 
 	 * @param logger Log4jロガーインスタンス
 	 */
-	Logger(org.apache.log4j.Logger logger){
+	Logger(com.spinn3r.log5j.Logger logger){
 		this.logger = logger;
 	}
 	
@@ -52,6 +52,15 @@ public class Logger {
 	
 	/**
 	 * ログに指定の出力内容を出力します。
+	 * （システムがこれ以上動作できない致命的なエラーが発生した場合）
+	 * @param throwable 出力内容
+	 */
+	public void fatal(Throwable throwable) {
+		this.logger.fatal(throwable.getMessage(), throwable);
+	}
+	
+	/**
+	 * ログに指定の出力内容を出力します。
 	 * （予期せぬ動作などにより、正しく処理できない場合）
 	 * @param messege 出力内容
 	 */
@@ -66,6 +75,15 @@ public class Logger {
 	 */
 	public void error(Loggable messege) {
 		this.logger.error(messege.printLog(lineSeparator));
+	}
+	
+	/**
+	 * ログに指定の出力内容を出力します。
+	 * （予期せぬ動作などにより、正しく処理できない場合）
+	 * @param throwable 出力内容
+	 */
+	public void error(Throwable throwable) {
+		this.logger.error(throwable.getMessage(), throwable);
 	}
 	
 	/**
@@ -88,6 +106,15 @@ public class Logger {
 	
 	/**
 	 * ログに指定の出力内容を出力します。
+	 * （なんらかの問題が発生したが、動作には影響がない場合）
+	 * @param throwable 出力内容
+	 */
+	public void warn(Throwable throwable) {
+		this.logger.warn(throwable.getMessage(), throwable);
+	}
+	
+	/**
+	 * ログに指定の出力内容を出力します。
 	 * （設定ファイルを読み込んだときの設定情報、システム開始／停止時の状態出力など）
 	 * @param messege 出力内容
 	 */
@@ -102,6 +129,15 @@ public class Logger {
 	 */
 	public void info(Loggable messege) {
 		this.logger.info(messege.printLog(lineSeparator));
+	}
+
+	/**
+	 * ログに指定の出力内容を出力します。
+	 * （設定ファイルを読み込んだときの設定情報、システム開始／停止時の状態出力など）
+	 * @param throwable 出力内容
+	 */
+	public void info(Throwable throwable) {
+		this.logger.info(throwable.getMessage(), throwable);
 	}
 	
 	/**
@@ -121,6 +157,15 @@ public class Logger {
 	public void debug(Loggable messege) {
 		this.logger.debug(messege.printLog(lineSeparator));
 	}
+
+	/**
+	 * ログに指定の出力内容を出力します。
+	 * （デバッグ情報。例えば、外部モジュールから呼ばれるメソッドの入出力情報など）
+	 * @param throwable 出力内容
+	 */
+	public void debug(Throwable throwable) {
+		this.logger.debug(throwable.getMessage(), throwable);
+	}
 	
 	/**
 	 * ログに指定の出力内容を出力します。
@@ -138,6 +183,15 @@ public class Logger {
 	 */
 	public void trace(Loggable messege) {
 		this.logger.trace(messege.printLog(lineSeparator));
+	}
+	
+	/**
+	 * ログに指定の出力内容を出力します。
+	 * （詳細なデバッグ情報。モジュール内部の情報、ループの繰り返しで大量に出力される情報など）
+	 * @param throwable 出力内容
+	 */
+	public void trace(Throwable throwable) {
+		this.logger.trace(throwable.getMessage(), throwable);
 	}
 	
 	/**

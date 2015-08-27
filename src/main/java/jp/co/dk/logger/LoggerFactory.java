@@ -2,12 +2,11 @@ package jp.co.dk.logger;
 
 import static jp.co.dk.logger.messege.LoggerMessege.*;
 
-import java.io.File;
 import java.net.URL;
 
-import jp.co.dk.logger.exception.LoggerInitException;
-
 import org.apache.log4j.PropertyConfigurator;
+
+import jp.co.dk.logger.exception.LoggerInitException;
 
 /**
  * LoggerFactoryは、指定のクラス名称、もしくは別名称を元にその名称に紐づくロギング設定でログインスタンスを生成するファクトリクラスです。<p/>
@@ -53,7 +52,7 @@ public class LoggerFactory {
 	 * @return ロガーインスタンス
 	 */
 	public static Logger getLogger(Class<?> classObject) {
-		return new Logger(org.apache.log4j.Logger.getLogger(classObject));
+		return new Logger(com.spinn3r.log5j.Logger.getLogger(classObject));
 	}
 	
 	/**
@@ -62,7 +61,7 @@ public class LoggerFactory {
 	 * @return ロガーインスタンス
 	 */
 	public static Logger getLogger(String name) {
-		return new Logger(org.apache.log4j.Logger.getLogger(name));
+		return new Logger(com.spinn3r.log5j.Logger.getLogger(name));
 	}
 	
 }

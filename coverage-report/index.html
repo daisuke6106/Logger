@@ -1,109 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JMockit Coverage Report</title>
+  <title>Code Coverage Report</title>
   <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/>
   <link rel='stylesheet' type='text/css' href='coverage.css'/>
+  <link rel='shortcut icon' type='image/png' href='logo.png'/>
   <script type='text/javascript' src='coverage.js'></script>
 </head>
 <body>
-  <h1>JMockit Coverage Report</h1>
   <table id='packages'>
-    <caption>All Packages and Files<div style='font-size: smaller'>Logger/src</div></caption>
+    <caption>All Packages and Files<div style='font-size: smaller'>Logger/src/main/java, Logger/src/test/java, Logger/src</div></caption>
     <tr>
       <th style='cursor: col-resize' onclick='showHideAllFiles()'>Packages: 3</th>
-      <th onclick='location.reload()' style='cursor: n-resize' title='Click on the title for each metric to sort by size (total number of line segments, paths, or fields).'>Files: 7</th>
+      <th onclick='location.reload()' style='cursor: n-resize' title='Click on the title for each metric to sort by size (total number of line segments, paths, or fields).'>Files: 6</th>
       <th onclick='sortTables(1)' style='cursor: n-resize' title='Measures how much of the executable production code was exercised by tests.
 An executable line of code contains one or more executable segments.
 The percentages are calculated as 100*NE/NS, where NS is the number of segments and NE the number of executed segments.'>Line</th>
-      <th onclick='sortTables(2)' style='cursor: n-resize' title='Measures how many of the possible execution paths through method/constructor bodies were actually executed by tests.
-The percentages are calculated as 100*NPE/NP, where NP is the number of possible paths and NPE the number of fully executed paths.'>Path</th>
-      <th onclick='sortTables(3)' style='cursor: n-resize' title='Measures how many of the instance and static non-final fields were fully exercised by the test run.
-To be fully exercised, a field must have the last value assigned to it read by at least one test.
-The percentages are calculated as 100*NFE/NF, where NF is the number of non-final fields and NFE the number of fully exercised fields.'>Data</th>
     </tr>
     <tr>
-      <td class='file click' onclick='showHideFiles(this)'>jp.co.dk.logger</td>
+      <td class='package click' onclick='showHideFiles(this)'>jp.co.dk.logger</td>
       <td>
         <table width='100%'>
           <tr>
-            <td class='file'><a target='_blank' href='jp/co/dk/logger/Loggable.html'>Loggable.java</a>            </td>
-            <td class='nocode'>N/A</td>
-            <td class='nocode'>N/A</td>
-            <td class='nocode'>N/A</td>
+            <td class='file class'><a target='_blank' href='jp/co/dk/logger/Logger.html'>Logger.java</a>              </td>
+            <td style='background-color:#e51a00' title='Line segments: 6/60'>10%</td>
           </tr>
           <tr>
-            <td class='file'><a target='_blank' href='jp/co/dk/logger/LoggerFactory.html'>LoggerFactory.java</a>       </td>
-            <td style='background-color:#ff0000' title='Line segments: 0/14'>0%</td>
-            <td style='background-color:#ff0000' title='Paths: 0/7'>0%</td>
-            <td class='nocode'>N/A</td>
+            <td class='file class'><a target='_blank' href='jp/co/dk/logger/LoggerFactory.html'>LoggerFactory.java</a>       </td>
+            <td style='background-color:#5ba400' title='Line segments: 9/14'>64%</td>
           </tr>
           <tr>
-            <td class='file'><a target='_blank' href='jp/co/dk/logger/LoggerFoundationTest.html'>LoggerFoundationTest.java</a></td>
-            <td style='background-color:#ff0000' title='Line segments: 0/56'>0%</td>
-            <td style='background-color:#ff0000' title='Paths: 0/14'>0%</td>
-            <td style='background-color:#ff0000' title='Fields: 0/4'>0%</td>
-          </tr>
-          <tr>
-            <td class='file'><a target='_blank' href='jp/co/dk/logger/LoggerTest.html'>LoggerTest.java</a>          </td>
-            <td style='background-color:#ff0000' title='Line segments: 0/14'>0%</td>
-            <td style='background-color:#ff0000' title='Paths: 0/7'>0%</td>
-            <td style='background-color:#ff0000' title='Fields: 0/6'>0%</td>
+            <td class='file class'><a target='_blank' href='jp/co/dk/logger/LoggerFoundationTest.html'>LoggerFoundationTest.java</a></td>
+            <td style='background-color:#ff0000' title='Line segments: 0/52'>0%</td>
           </tr>
         </table>
-      </td>
-      <td class='pt' style='background-color:#ff0000' title='Line segments: 0/84'>0%</td>
-      <td class='pt' style='background-color:#ff0000' title='Paths: 0/28'>0%</td>
-      <td class='pt' style='background-color:#ff0000' title='Fields: 0/10'>0%</td>
+        <span>(3 source files)</span>
+  </td>
+      <td class='pt' style='background-color:#e11e00' title='Line segments: 15/126'>12%</td>
     </tr>
     <tr>
-      <td class='file click' onclick='showHideFiles(this)'>jp.co.dk.logger.exception</td>
+      <td class='package click' onclick='showHideFiles(this)'>jp.co.dk.logger.exception</td>
       <td>
         <table width='100%'>
           <tr>
-            <td class='file'><a target='_blank' href='jp/co/dk/logger/exception/LoggerFatalException.html'>LoggerFatalException.java</a></td>
-            <td style='background-color:#00ff00' title='Line segments: 12/12'>100%</td>
-            <td style='background-color:#00ff00' title='Paths: 6/6'>100%</td>
-            <td class='nocode'>N/A</td>
+            <td class='file exception'><a target='_blank' href='jp/co/dk/logger/exception/LoggerFatalException.html'>LoggerFatalException.java</a></td>
+            <td style='background-color:#ff0000' title='Line segments: 0/12'>0%</td>
           </tr>
           <tr>
-            <td class='file'><a target='_blank' href='jp/co/dk/logger/exception/LoggerInitException.html'>LoggerInitException.java</a> </td>
-            <td style='background-color:#00ff00' title='Line segments: 12/12'>100%</td>
-            <td style='background-color:#00ff00' title='Paths: 6/6'>100%</td>
-            <td class='nocode'>N/A</td>
+            <td class='file exception'><a target='_blank' href='jp/co/dk/logger/exception/LoggerInitException.html'>LoggerInitException.java</a> </td>
+            <td style='background-color:#ff0000' title='Line segments: 0/12'>0%</td>
           </tr>
         </table>
-      </td>
-      <td class='pt' style='background-color:#00ff00' title='Line segments: 24/24'>100%</td>
-      <td class='pt' style='background-color:#00ff00' title='Paths: 12/12'>100%</td>
-      <td class='nocode'>N/A</td>
+        <span>(2 source files)</span>
+  </td>
+      <td class='pt' style='background-color:#ff0000' title='Line segments: 0/24'>0%</td>
     </tr>
     <tr>
-      <td class='file'>jp.co.dk.logger.messege</td>
+      <td class='package'>jp.co.dk.logger.messege</td>
       <td>
         <table width='100%'>
           <tr>
-            <td class='file'><a target='_blank' href='jp/co/dk/logger/messege/LoggerMessege.html'>LoggerMessege.java</a>       </td>
-            <td style='background-color:#00ff00' title='Line segments: 3/3'>100%</td>
-            <td style='background-color:#00ff00' title='Paths: 1/1'>100%</td>
-            <td class='nocode'>N/A</td>
+            <td class='file class'><a target='_blank' href='jp/co/dk/logger/messege/LoggerMessege.html'>LoggerMessege.java</a>       </td>
+            <td style='background-color:#ff0000' title='Line segments: 0/3'>0%</td>
           </tr>
         </table>
-      </td>
-      <td class='pt' style='background-color:#00ff00' title='Line segments: 3/3'>100%</td>
-      <td class='pt' style='background-color:#00ff00' title='Paths: 1/1'>100%</td>
-      <td class='nocode'>N/A</td>
+        <span>(1 source files)</span>
+  </td>
+      <td class='pt' style='background-color:#ff0000' title='Line segments: 0/3'>0%</td>
     </tr>
     <tr class='total'>
       <td>Total</td><td>&nbsp;</td>
-      <td class='pt' style='background-color:#c13e00' title='Line segments: 27/111'>24%</td>
-      <td class='pt' style='background-color:#ae5100' title='Paths: 13/41'>32%</td>
-      <td class='pt' style='background-color:#ff0000' title='Fields: 0/10'>0%</td>
+      <td class='pt' style='background-color:#e61900' title='Line segments: 15/153'>10%</td>
     </tr>
   </table>
   <p>
-    <a href='http://code.google.com/p/jmockit'><img src='logo.png'></a>
-    Generated on Tue Jun 02 01:48:59 JST 2015
+    <a href='http://jmockit.org'><img src='logo.png'></a>
+    Generated on Fri Aug 28 00:28:20 JST 2015
   </p>
 </body>
 </html>

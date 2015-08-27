@@ -10,7 +10,7 @@ import org.junit.runners.Suite.SuiteClasses;
 @RunWith(Suite.class)
 @SuiteClasses({ 
 	LoggerFactoryTest.class,
-	LoggerTest.class,
+//	LoggerTest.class,
 	
 	LoggerInitExceptionTest.class,
 	LoggerFatalExceptionTest.class,
