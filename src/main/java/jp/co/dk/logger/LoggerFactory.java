@@ -2,8 +2,6 @@ package jp.co.dk.logger;
 
 import static jp.co.dk.logger.messege.LoggerMessege.*;
 
-import java.net.URL;
-
 import org.apache.log4j.PropertyConfigurator;
 
 import jp.co.dk.logger.exception.LoggerInitException;
@@ -29,7 +27,8 @@ public class LoggerFactory {
 	 * クラスパスに存在するプロパティファイルを読み込みます。
 	 */
 	static {
-		readPropertyFile(LoggerFactory.propertiesFile);
+		// readPropertyFile(LoggerFactory.propertiesFile);
+		readPropertyFile(System.getProperty("logger_property_file"));
 	}
 	
 	/**
@@ -41,9 +40,10 @@ public class LoggerFactory {
 	protected static void readPropertyFile(String fileName) throws LoggerInitException {
 		if (fileName == null) throw new LoggerInitException(PROPERTIES_FILE_CAN_NOT_BE_FOUND, "null");
 		if (fileName.equals("")) throw new LoggerInitException(PROPERTIES_FILE_CAN_NOT_BE_FOUND, "");
-		URL fileURL = Thread.currentThread().getContextClassLoader().getResource(fileName);
-		if (fileURL == null) throw new LoggerInitException(PROPERTIES_FILE_CAN_NOT_BE_FOUND, fileName);
-		PropertyConfigurator.configure(Thread.currentThread().getContextClassLoader().getResource(fileName));
+		// URL fileURL = Thread.currentThread().getContextClassLoader().getResource(fileName);
+		// if (fileURL == null) throw new LoggerInitException(PROPERTIES_FILE_CAN_NOT_BE_FOUND, fileName);
+		// PropertyConfigurator.configure(Thread.currentThread().getContextClassLoader().getResource(fileName));
+		PropertyConfigurator.configure(fileName);
 	}
 	
 	/**
