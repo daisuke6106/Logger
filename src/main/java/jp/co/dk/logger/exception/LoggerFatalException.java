@@ -1,17 +1,12 @@
 package jp.co.dk.logger.exception;
 
-import java.util.List;
-
-import jp.co.dk.message.MessageInterface;
-import jp.co.dk.message.exception.AbstractMessageFatalException;
-
 /**
  * LoggerFatalExceptionは、ロガー処理にて致命的例外が発生したことを通知する例外クラスです。
  * 
  * @version 1.0
  * @author D.Kanno
  */
-class LoggerFatalException extends AbstractMessageFatalException{
+public class LoggerFatalException extends RuntimeException {
 	
 	/**
 	 * シリアルバージョンID
@@ -23,78 +18,23 @@ class LoggerFatalException extends AbstractMessageFatalException{
 	 * 
 	 * 指定のメッセージで例外を生成します。
 	 * 
-	 * @param msg メッセージ定数インスタンス
+	 * @param msg メッセージ本文
 	 * @since 1.0
 	 */
-	public LoggerFatalException(MessageInterface msg){
+	public LoggerFatalException(String msg){
 		super(msg);
 	}
-	
-	/**
-	 * コンストラクタ<p>
-	 * 
-	 * 指定のメッセージで例外を生成します。
-	 * 
-	 * @param msg メッセージ定数インスタンス
-	 * @param str メッセージ埋め込み文字列
-	 * @since 1.0
-	 */
-	public LoggerFatalException(MessageInterface msg, String str){
-		super(msg, str);
-	}
-	
+
 	/**
 	 * コンストラクタ<p>
 	 * 
 	 * 指定のメッセージ、例外で例外を生成します。
 	 * 
-	 * @param msg メッセージ定数インスタンス
+	 * @param msg メッセージ本文
 	 * @param throwable 例外インスタンス
 	 * @since 1.0
 	 */
-	public LoggerFatalException(MessageInterface msg, Throwable throwable){
+	public LoggerFatalException(String msg, Throwable throwable){
 		super(msg, throwable);
-	}
-	
-	/**
-	 * コンストラクタ<p>
-	 * 
-	 * 指定のメッセージ、埋め込み文字列、例外で例外を生成します。
-	 * 
-	 * @param msg メッセージ定数インスタンス
-	 * @param str メッセージ埋め込み文字列
-	 * @param throwable 例外インスタンス
-	 * @since 1.0
-	 */
-	public LoggerFatalException(MessageInterface msg, String str, Throwable throwable){
-		super(msg, str, throwable);
-	}
-	
-	/**
-	 * コンストラクタ<p>
-	 * 
-	 * 指定のメッセージ、埋め込み文字列一覧、例外で例外を生成します。
-	 * 
-	 * @param msg メッセージ定数インスタンス
-	 * @param list メッセージ埋め込み文字列一覧
-	 * @param throwable 例外インスタンス
-	 * @since 1.0
-	 */
-	public LoggerFatalException(MessageInterface msg, List<String> list,Throwable throwable){
-		super(msg, list, throwable);
-	}
-	
-	/**
-	 * コンストラクタ<p>
-	 * 
-	 * 指定のメッセージ、埋め込み文字列一覧、例外で例外を生成します。
-	 * 
-	 * @param msg メッセージ定数インスタンス
-	 * @param embeddedStrList メッセージ埋め込み文字列一覧
-	 * @param throwable 例外インスタンス
-	 * @since 1.0
-	 */
-	public LoggerFatalException(MessageInterface msg, String[] str, Throwable throwable){
-		super(msg, str, throwable);
 	}
 }
